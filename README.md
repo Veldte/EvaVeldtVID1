@@ -1,5 +1,4 @@
 # EvaVeldtVID1
-Mijn eigen repository voor het vak web-animation
 
 # De opdracht voor het vak webanimatie
 De opdracht voor het vak webanimatie luidt als volgt. De bedoeling is dat ik los ga met css op een gekozen kunstwerk uit een archief. Ik heb daarvoor onderstaand kunstwerk gekozen. Om een leuke animatie hiervoor te bedenken heb ik niet alleen mijn eigen creativiteit gebruikt maar ook onderzoek gedaan naar de ontwerper en de bedoeling van het kunstwerk. Er was helaas niet erg veel tevinden over dit specifieke werk. Daarom heb ik mij vooral verdiept in zijn werken, zijn stijl en zijn biografie. Daar heb ik het een en ander ontdekt.
