@@ -6,7 +6,7 @@ Mijn eigen repository voor het vak web-animation
 # De link naar mijn kunstwerk en achtergrond informatie
 https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22California%20Graphic%20Design%201980%E2%80%931982%22/_/detail/relevance/asc/85/7/12931/venture-graphics/1
 
-Het werk is gemaakt voor Michael van der Byl. Hij maakte monochromen. Dit houd in dat hij werkte met één kleur tegelijk. In zijn geval was dit altijd zwart wit. Hij werkte met grote contrasten.
+Het werk is gemaakt voor Michael van der Byl. Hij maakte onder andere logo's. Dit kunstwerk is ook een logo voor het bedrijf "Venture Graphics". Van der Byl werkte voornamelijk met monochromen. Dit houd in dat hij werkte met één kleur tegelijk. In zijn geval was dit altijd zwart wit. Hij werkte met grote contrasten.
 
 Nog een eigenschap van de werken van Michael is dat hij werkte met schalen (scales) en groottes. Er zit in bijna al zijn werk diepte. Dit doet hij door precies dezelfde vorm, op meerdere groottes te laten zien en van groot naar klein te zetten. Zo lijkt er een flow te ontstaan. Zo lijkthet alsof er een overgang is tussen de grootste vorm en de kleinste vorm. Soms lijkt het zelfs alsof de tint van de vormen veranderen. 
 
