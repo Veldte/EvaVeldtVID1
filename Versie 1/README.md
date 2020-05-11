@@ -1,6 +1,6 @@
 # Versie 1
 
-## Wat heb ik hier verwerkt
+## Wat heb ik in versie 1 verwerkt 
 
 ### Svg aan Html toegevoegd
 Stap een was het namaken van je kunstwerk in illustrator en deze exporteren naar html. Nu viel het namaken van mijn kunstwerk natuulijk wel mee maar het goed indelen van de lagen van mijn svg bleek lastiger te zijn. Ik heb groepen geprobeerd te maken en dit te exporteren, maar dit leverde voor mij meer gedoe op dan alle bollen in één laag te laten staan. Om deze reden heb ik de bollen op volgorde in een laag geplaatst. Zo is het voor mij makkelijk in de css te bepalen welke bol welke regel is in de html.
