@@ -1,5 +1,7 @@
 # Versie 3
-[Demo van versie 4](https://veldte.github.io/EvaVeldtVID1/Versie%203/)
+[Demo van versie 3](https://veldte.github.io/EvaVeldtVID1/Versie%203/)
+
+
 ## Wat heb ik in versie 2 verwerkt 
 
 ### Wanneer er op het vierkante knopje wordt geklikt veranderd de vorm naar vierkant
