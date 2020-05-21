@@ -33,9 +33,11 @@ svg {
     display: flex;
     margin-top: 5%;
     width: 100%;
+ 
 
 
 }
+
 
 #mobiel {
     display: none;
@@ -76,7 +78,7 @@ button :hover {
 }
 
 
-#knoppen ul{
+#knoppen ul {
     text-decoration: none;
     list-style-type: none;
 }
@@ -84,16 +86,16 @@ button :hover {
 
 
 
-/*--------KLEUREN ONCLICK CIRCLE --------------*/
 
 /*--------KLEUREN ONCLICK CIRCLE --------------*/
 
-.bodyrood{
+/*--------KLEUREN ONCLICK CIRCLE --------------*/
+
+.bodyrood {
     background-color: red;
 }
+
 /*DRIE---------------------*/
-
-
 
 .geelgroen {
     background-color: green;
@@ -226,8 +228,11 @@ button :hover {
     fill: skyblue;
 }
 
+/*DISCO*/
 
-
+.disco {
+    animation: disco 8s ease alternate infinite;
+}
 
 /*--------SPECIALE CLASSES ONCLICK--------------*/
 
@@ -242,40 +247,47 @@ button :hover {
 }
 
 .rond {
-    transform: translate(50px, 0px) rotate(0deg);
+    /*    transform: translate(50px, 0px) rotate(0deg);*/
+    clip-path: circle(40%);
+    transform: translate(50vh, 0vh);
     position: fixed;
+
 }
 
 
-.links{
+.links {
     transform: translate(-100px);
     transition: ease-in-out 2s;
 }
 
-.rechts{
+.rechts {
     transform: translate(100px);
     transition: ease-in-out 2s;
 }
-.onder{
+
+.onder {
     transform: translate(0, 100px);
     transition: ease-in-out 2s;
 }
-.boven{
+
+.boven {
     transform: translate(0, -100px);
     transition: ease-in-out 2s;
 }
 
-.turn{
-    transform: rotate(90deg) translate(-150px,0);
+.turnn {
+    transform: rotate(90deg) translate(-150px, 0);
     transition: ease-in-out 2s;
 }
 
-.turnn{
-    transform: rotate(-90deg) translate(-150px,0);
+.turnnn {
+    transform: rotate(-90deg) translate(-150px, 0);
     transition: ease-in-out 2s;
 }
 
 
+/*--------CIRKELS HOVER KLEUR---------------------------*/
+/*--------CIRKELS HOVER KLEUR---------------------------*/
 /*--------CIRKELS HOVER KLEUR---------------------------*/
 
 circle {
@@ -340,6 +352,9 @@ circle:hover {
 }
 
 /*-------------HOBBEL DE BOBBEL-----------------------*/
+/*-------------HOBBEL DE BOBBEL-----------------------*/
+/*-------------HOBBEL DE BOBBEL-----------------------*/
+/*-------------    ANIMATIE    -----------------------*/
 
 circle {
     animation: kaboom 3s ease alternate infinite;
@@ -965,6 +980,32 @@ circle:nth-of-type(48) {
 
 /*------KEYFRAMES---------------------------------------------*/
 
+@keyframes disco {
+    0% {
+        background-color: black;
+    }
+
+    20% {
+        background-color: hotpink;
+    }
+
+    40% {
+        background-color: orange;
+    }
+
+    60% {
+        background-color: skyblue;
+    }
+
+    80% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: black;
+    }
+}
+
+
 @keyframes kaboom {
     90% {
         transform: scale(1.0);
@@ -1005,6 +1046,68 @@ circle:nth-of-type(48) {
 /*-----------MEDIA QUERIES--------------MOBIEL FORMAAT----------------*/
 
 @media(max-width: 35rem) {
+    h1 {
+        color: white;
+        margin-top: 2rem;
+    }
+
+
+    Body {
+        background-color: black;
+    }
+    #show_1 {
+        margin: auto;
+        display: flex;
+        margin-top: 5%;
+        width: 90%;
+        z-index: 1;
+
+    }
+
+    #mobiel {
+        display: inline-block;
+        position: fixed;
+        margin-top: -120%;
+        z-index: -2;
+
+    }
+
+
+
+    #mobiel svg:nth-of-type(2) {
+        margin-top: -100px;
+    }
+
+    #knoppen {
+        margin-bottom: 0px;
+        margin-top: -7vh;
+    }
+
+    #buttonimg {
+        height: 20px;
+        filter: invert(100%);
+    }
+
+    #rondje {
+        height: 20px;
+        filter: invert(100%);
+    }
+
+    .rond {
+        /*    transform: translate(50px, 0px) rotate(0deg);*/
+        clip-path: circle(40%);
+        transform: translate(0vh, 0vh);
+        position: fixed;
+        display: flex;
+        justify-content: center;
+
+
+    }
+}
+
+/*MEDIA 2-------------------------------------------------*/
+
+@media(max-width: 30rem) {
 
 
     h1 {
@@ -1024,6 +1127,7 @@ circle:nth-of-type(48) {
     #mobiel circle:hover {
         transform: translate(0px, 50px);
     }
+
     #mobiel circle {
         fill: black;
     }
@@ -1032,12 +1136,13 @@ circle:nth-of-type(48) {
     #mobiel {
         display: inline-block;
         position: fixed;
-        margin-top: -120%;
+        margin-top: -140%;
         z-index: -2;
+
     }
 
     #mobiel svg:nth-of-type(2) {
-        margin-top: -100px;
+        margin-top: -160px;
     }
 
 
@@ -1057,6 +1162,7 @@ circle:nth-of-type(48) {
         margin: 0;
         padding: 1rem;
         display: flex;
+  
 
     }
 
@@ -1070,6 +1176,7 @@ circle:nth-of-type(48) {
     #knoppen {
         margin-bottom: 0px;
         margin-top: -7vh;
+        
     }
 
 
@@ -1083,98 +1190,122 @@ circle:nth-of-type(48) {
         filter: invert(100%);
     }
 
+    .rond {
+        /*    transform: translate(50px, 0px) rotate(0deg);*/
+        clip-path: circle(40%);
+        transform: translate(0vh, 0vh);
+        position: fixed;
+        display: flex;
+        justify-content: center;
 
-    /*VIERKANT VERKLEINEN--------------------*/
-    /*VIERKANT VERKLEINEN--------------------*/
-    /*VIERKANT VERKLEINEN--------------------*/
-    /*VIERKANT VERKLEINEN--------------------*/
+
+
+    }
+
     
-    
-    #show_2 circle:first-of-type {
-        display: none;
-    }
+}
 
-    #show_2 circle:nth-of-type(2) {
-        display: none;
-    }
 
-    #show_2 circle:nth-of-type(3) {
-        display: none;
-    }
 
-    #show_2 circle:nth-of-type(4) {
-        display: none;
-    }
+/*VIERKANT VERKLEINEN--------------------*/
 
-    #show_2 circle:nth-of-type(5) {
-        display: none;
-    }
+/*VIERKANT VERKLEINEN--------------------*/
 
-    #show_2 circle:nth-of-type(6) {
-        display: none;
-    }
+/*VIERKANT VERKLEINEN--------------------*/
 
-    #show_2 circle:nth-of-type(7) {
-        display: none;
-    }
+/*VIERKANT VERKLEINEN--------------------*/
 
-    #show_2 circle:nth-of-type(8) {
-        display: none;
-    }
+#show_2 circle:first-of-type {
+    display: none;
+}
 
-    #show_2 circle:nth-of-type(9) {
-        display: none;
-    }
+#show_2 circle:nth-of-type(2) {
+    display: none;
+}
 
-    #show_2 circle:nth-of-type(10) {
-        display: none;
-    }
+#show_2 circle:nth-of-type(3) {
+    display: none;
+}
 
-    #show_2 circle:nth-of-type(11) {
-        display: none;
-    }
+#show_2 circle:nth-of-type(4) {
+    display: none;
+}
 
-    #show_2 circle:nth-of-type(12) {
-        display: none;
-    }
+#show_2 circle:nth-of-type(5) {
+    display: none;
+}
 
-    #show_2 circle:nth-of-type(13) {
-        display: none;
-    }
+#show_2 circle:nth-of-type(6) {
+    display: none;
+}
 
-    #show_2 circle:nth-of-type(26) {
-        display: none;
-    }
-    #show_2 circle:nth-of-type(39) {
-        display: none;
-    }
-    #show_2 circle:nth-of-type(52) {
-        display: none;
-    }
-    #show_2 circle:nth-of-type(65) {
-        display: none;
-    }
+#show_2 circle:nth-of-type(7) {
+    display: none;
+}
 
-    #show_2 circle:nth-of-type(14) {
-        display: none;
-    }
-    #show_2 circle:nth-of-type(27) {
-        display: none;
-    }
-    #show_2 circle:nth-of-type(40) {
-        display: none;
-    }
-    #show_2 circle:nth-of-type(53) {
-        display: none;
-    }
+#show_2 circle:nth-of-type(8) {
+    display: none;
+}
 
-    #show_2 circle:nth-of-type(66) {
-        display: none;
-    }
+#show_2 circle:nth-of-type(9) {
+    display: none;
+}
 
-    #show_2 circle:nth-of-type(78) {
-        display: none;
-    }
+#show_2 circle:nth-of-type(10) {
+    display: none;
+}
+
+#show_2 circle:nth-of-type(11) {
+    display: none;
+}
+
+#show_2 circle:nth-of-type(12) {
+    display: none;
+}
+
+#show_2 circle:nth-of-type(13) {
+    display: none;
+}
+
+#show_2 circle:nth-of-type(26) {
+    display: none;
+}
+
+#show_2 circle:nth-of-type(39) {
+    display: none;
+}
+
+#show_2 circle:nth-of-type(52) {
+    display: none;
+}
+
+#show_2 circle:nth-of-type(65) {
+    display: none;
+}
+
+#show_2 circle:nth-of-type(14) {
+    display: none;
+}
+
+#show_2 circle:nth-of-type(27) {
+    display: none;
+}
+
+#show_2 circle:nth-of-type(40) {
+    display: none;
+}
+
+#show_2 circle:nth-of-type(53) {
+    display: none;
+}
+
+#show_2 circle:nth-of-type(66) {
+    display: none;
+}
+
+#show_2 circle:nth-of-type(78) {
+    display: none;
+}
 
 
 }
@@ -1189,11 +1320,6 @@ circle:nth-of-type(48) {
 /*------------------MOBIELE ACHTERGROND BOLLETJES ------------------*/
 
 /*------------------MOBIELE ACHTERGROND BOLLETJES ------------------*/
-
-#mobiel {
-    background-size: cover;
-    
-}
 
 #mobiel circle {
     animation: klein 6s ease alternate infinite;
