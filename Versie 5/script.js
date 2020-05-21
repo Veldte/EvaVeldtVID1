@@ -8,11 +8,6 @@ function myFunctiontwo() {
     element.classList.toggle("turn");
 }
 
-document.addEventListener('click', function(e) {
-
-    var element = document.getElementById("h1");
-    element.classList.toggle("disco");
-});
 
 
 
