@@ -1246,7 +1246,7 @@ circle:nth-of-type(48) {
 /*------------------MOBIELE ACHTERGROND BOLLETJES ------------------*/
 
 #mobiel svg {
-    background-size: contain;
+    background-size: cover;
 
 }
 
