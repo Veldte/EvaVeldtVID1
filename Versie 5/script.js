@@ -8,7 +8,7 @@ function myFunctiontwo() {
     element.classList.toggle("turn");
 }
 
-document.addEventListener('long-press', function(e) {
+document.addEventListener('touchstart mousedown', function(e) {
 
     var element = document.getElementById("body");
     element.classList.toggle("disco");
