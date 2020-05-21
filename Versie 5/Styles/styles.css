@@ -972,28 +972,27 @@ circle:nth-of-type(48) {
 
 /*------KEYFRAMES---------------------------------------------*/
 
-
-@keyframes disco{
-    0%{
+@keyframes disco {
+    0% {
         background-color: black;
-    }  
-    
-    20%{
+    }
+
+    20% {
         background-color: hotpink;
     }
-    
-    40%{
+
+    40% {
         background-color: orange;
     }
-    
-    60%{
+
+    60% {
         background-color: skyblue;
     }
-    
-    80%{
+
+    80% {
         background-color: yellow;
     }
-    100%{
+    100% {
         background-color: black;
     }
 }
@@ -1039,6 +1038,68 @@ circle:nth-of-type(48) {
 /*-----------MEDIA QUERIES--------------MOBIEL FORMAAT----------------*/
 
 @media(max-width: 35rem) {
+    h1 {
+        color: white;
+        margin-top: 2rem;
+    }
+
+
+    Body {
+        background-color: black;
+    }
+    #show_1 {
+        margin: auto;
+        display: flex;
+        margin-top: 5%;
+        width: 90%;
+        z-index: 1;
+
+    }
+
+    #mobiel {
+        display: inline-block;
+        position: fixed;
+        margin-top: -120%;
+        z-index: -2;
+
+    }
+
+
+
+    #mobiel svg:nth-of-type(2) {
+        margin-top: -100px;
+    }
+
+    #knoppen {
+        margin-bottom: 0px;
+        margin-top: -7vh;
+    }
+
+    #buttonimg {
+        height: 20px;
+        filter: invert(100%);
+    }
+
+    #rondje {
+        height: 20px;
+        filter: invert(100%);
+    }
+
+    .rond {
+        /*    transform: translate(50px, 0px) rotate(0deg);*/
+        clip-path: circle(40%);
+        transform: translate(0vh, 0vh);
+        position: fixed;
+        display: flex;
+        justify-content: center;
+
+
+    }
+}
+
+/*MEDIA 2-------------------------------------------------*/
+
+@media(max-width: 30rem) {
 
 
     h1 {
@@ -1058,7 +1119,7 @@ circle:nth-of-type(48) {
     #mobiel circle:hover {
         transform: translate(0px, 50px);
     }
-    
+
     #mobiel circle {
         fill: black;
     }
@@ -1118,7 +1179,7 @@ circle:nth-of-type(48) {
         height: 20px;
         filter: invert(100%);
     }
-    
+
     .rond {
         /*    transform: translate(50px, 0px) rotate(0deg);*/
         clip-path: circle(40%);
@@ -1129,109 +1190,105 @@ circle:nth-of-type(48) {
 
 
     }
-  
 
 
 
-/*VIERKANT VERKLEINEN--------------------*/
 
-/*VIERKANT VERKLEINEN--------------------*/
+    /*VIERKANT VERKLEINEN--------------------*/
+    /*VIERKANT VERKLEINEN--------------------*/
+    /*VIERKANT VERKLEINEN--------------------*/
+    /*VIERKANT VERKLEINEN--------------------*/
+    #show_2 circle:first-of-type {
+        display: none;
+    }
 
-/*VIERKANT VERKLEINEN--------------------*/
+    #show_2 circle:nth-of-type(2) {
+        display: none;
+    }
 
-/*VIERKANT VERKLEINEN--------------------*/
+    #show_2 circle:nth-of-type(3) {
+        display: none;
+    }
 
-#show_2 circle:first-of-type {
-    display: none;
-}
+    #show_2 circle:nth-of-type(4) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(2) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(5) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(3) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(6) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(4) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(7) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(5) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(8) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(6) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(9) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(7) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(10) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(8) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(11) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(9) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(12) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(10) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(13) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(11) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(26) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(12) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(39) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(13) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(52) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(26) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(65) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(39) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(14) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(52) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(27) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(65) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(40) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(14) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(53) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(27) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(66) {
+        display: none;
+    }
 
-#show_2 circle:nth-of-type(40) {
-    display: none;
-}
-
-#show_2 circle:nth-of-type(53) {
-    display: none;
-}
-
-#show_2 circle:nth-of-type(66) {
-    display: none;
-}
-
-#show_2 circle:nth-of-type(78) {
-    display: none;
-}
+    #show_2 circle:nth-of-type(78) {
+        display: none;
+    }
 
 
 }
@@ -1246,8 +1303,6 @@ circle:nth-of-type(48) {
 /*------------------MOBIELE ACHTERGROND BOLLETJES ------------------*/
 
 /*------------------MOBIELE ACHTERGROND BOLLETJES ------------------*/
-
-
 
 #mobiel circle {
     animation: klein 6s ease alternate infinite;
