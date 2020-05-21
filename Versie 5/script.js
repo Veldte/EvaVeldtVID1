@@ -191,8 +191,4 @@ function move(event) {
     }
 }
 
-const link = document.getElementById('body')
 
-link.addEventListener('touchstart', event => {
-    link.classList.toggle("disco");
-})
