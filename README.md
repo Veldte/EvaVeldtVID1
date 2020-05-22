@@ -54,7 +54,7 @@ Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging na
 ![Het vierkant](/img/vierkant.png)
 
 
-### (*Voor mij*) Nieuwe Css properties die ik heb gebruikt 
+### ( *Voor mij* ) Nieuwe Css properties die ik heb gebruikt 
 
 - Clip-path
 - Transition-timing-function
