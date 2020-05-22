@@ -10,10 +10,11 @@ Het werk is gemaakt door Michael van der Byl. Hij maakte onder andere logo's. Di
 Nog een eigenschap van de werken van Michael is dat hij werkte met schalen (scales) en groottes. Er zit in bijna al zijn werk diepte. Dit doet hij door precies dezelfde vorm, op meerdere groottes te laten zien en van groot naar klein te zetten. Zo lijkt er een flow te ontstaan. Zo lijkthet alsof er een overgang is tussen de grootste vorm en de kleinste vorm. Soms lijkt het zelfs alsof de tint van de vormen veranderen. 
 
 Ook maakte Michael met één vorm vaak een andere vorm. Zo maakt hij in dit kunstwerk van meerdere cirkels samen een driehoek. Zo maakt hij andere vormen.
+(https://designarchives.aiga.org/assets/images/000/019/941/19941_lg.jpg)
+
 
 https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22California%20Graphic%20Design%201980%E2%80%931982%22/_/detail/relevance/asc/85/7/12931/venture-graphics/1
-![Het kunstwerk](https://designarchives.aiga.org/assets/images/000/019/941/19941_lg.jpg)
-
+![Het kunstwerk]
 
 # Wat heb ik met dit stilstaande beeld gedaan
 
@@ -98,11 +99,15 @@ Als laatste heb de buttons nog een cursor: pointer gegeven. Zo ziet de gebruiker
 ### JavaScript 
 
 Er zijn drie verschillende soorten functies die ik binnnen JavaScript heb geschreven.
-- Keycode en events
--.classList.toggle
-- Switch div
+
+- Keycode en events. *Deze heb ik geschreven voor de animaties op een keypress.*
+-.classList.toggle *Voor onclick toggles van classes, bijvoorbeeld voor het veranderen van het contrast op de body en cirkels.*
+- Switch div *Deze functie heb ik geschreven voor het inladen van een andere svg en het verwijderen van de svg die er al stond.*
 
 #### Mobiel formaat javascript experimenten 
+
+Voor het mobiele formaat heb ik ook nog JavaScript geschreven. Ik heb een *Long-press* en een *Touchstart* functie geschreven. Beide functies heb ik uiteindelijk werkend gekregen met wat hulp van stackoverflow.com. Toch heb ik deze regels uiteindlijk uitgecommentarieerd. Ik vond dat mijn mobiele versie niet meer bruikbaar was door deze functies. Ik had het namelijk mogelijk gemaak dat op een touch of longpress de achtergrond de class disco zou krijgen. Maar door dit te doen werkte het klikken op de cirkels niet meer en vond ik dat het een beetje te onduidlijk en onbruibaar werd. Toch heb ik de code bewaard. 
+
 - Long-press
 - Touchstart
 ### Het grote verschil tussen mobiel en desktop 
