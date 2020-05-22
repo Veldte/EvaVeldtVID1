@@ -9,10 +9,12 @@ function myFunctiontwo() {
 }
 
 
-var el = document.getElementById('body');
+var el = document.getElementById('rondje');
 el.addEventListener('long-press', function (e) {
     el.classList.toggle("disco");
 });
+
+
 //el.addEventListener('touchstart', function (e) {
 //    el.classList.toggle("disco");
 //});
