@@ -94,7 +94,7 @@ Ik heb met @keyframes verschillende animaties geschreven.
 3. De disco achtergrond heb ik ook door middel van keyframes en animation gemaakt. Hoe ik dit heb gedaan heb ik uitgelegd onder het kopje " Contrast kleuren -> hoe ik dit heb gedaan". (Ik verwijs hiernaar omdat ik niet in herhaling wil vallen)
 
 
-## Gebruikte pseudoclasses 
+### Gebruikte pseudoclasses 
 - :nth-of-type(n)
 - :fist-of-type
 - :hover
@@ -153,7 +153,7 @@ Hierdoor is de beleving van de mobiele versie echt anders dan de desktop versie.
 ![Desktop](/img/desk.png)
 ![Mobiel](/img/mobiel.png)
 
-### Responsive verschillen
+## Responsive verschillen
 
 - Desktop: witte achtergrond met zwart kunstwerk
 - Tablet: zelfde als desktop maar dan geschaald naar een mooi passend formaat
