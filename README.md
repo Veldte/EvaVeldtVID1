@@ -10,6 +10,7 @@ Het werk is gemaakt door Michael van der Byl. Hij maakte onder andere logo's. Di
 Nog een eigenschap van de werken van Michael is dat hij werkte met schalen (scales) en groottes. Er zit in bijna al zijn werk diepte. Dit doet hij door precies dezelfde vorm, op meerdere groottes te laten zien en van groot naar klein te zetten. Zo lijkt er een flow te ontstaan. Zo lijkthet alsof er een overgang is tussen de grootste vorm en de kleinste vorm. Soms lijkt het zelfs alsof de tint van de vormen veranderen. 
 
 Ook maakte Michael met één vorm vaak een andere vorm. Zo maakt hij in dit kunstwerk van meerdere cirkels samen een driehoek. Zo maakt hij andere vormen.
+
 ![Het kunstwerk](https://designarchives.aiga.org/assets/images/000/019/941/19941_lg.jpg)
 
 https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22California%20Graphic%20Design%201980%E2%80%931982%22/_/detail/relevance/asc/85/7/12931/venture-graphics/1
@@ -105,18 +106,33 @@ Er zijn drie verschillende soorten functies die ik binnnen JavaScript heb geschr
 
 #### Mobiel formaat javascript experimenten 
 
-Voor het mobiele formaat heb ik ook nog JavaScript geschreven. Ik heb een *Long-press* en een *Touchstart* functie geschreven. Beide functies heb ik uiteindelijk werkend gekregen met wat hulp van stackoverflow.com. Toch heb ik deze regels uiteindlijk uitgecommentarieerd. Ik vond dat mijn mobiele versie niet meer bruikbaar was door deze functies. Ik had het namelijk mogelijk gemaak dat op een touch of longpress de achtergrond de class disco zou krijgen. Maar door dit te doen werkte het klikken op de cirkels niet meer en vond ik dat het een beetje te onduidlijk en onbruibaar werd. Toch heb ik de code bewaard. 
+Voor het mobiele formaat heb ik ook nog JavaScript geschreven. Ik heb een *Long-press* en een *Touchstart* functie geschreven. Beide functies heb ik uiteindelijk werkend gekregen met wat hulp van stackoverflow.com. 
+Toch heb ik deze regels uiteindlijk uitgecommentarieerd. Ik vond dat mijn mobiele versie niet meer bruikbaar was door deze functies. Ik had het namelijk mogelijk gemaak dat op een touch of longpress de achtergrond de class disco zou krijgen. Maar door dit te doen werkte het klikken op de cirkels niet meer en vond ik dat het een beetje te onduidlijk en onbruikbaar werd. De code heb ik wel bewaard. 
 
 - Long-press
 - Touchstart
 
 ![Het kunstwerk](/img/mobieljava.png)
-### Het grote verschil tussen mobiel en desktop 
-- Het contrast 
-- De bolletjes ( cirkeltjes) op de achtergrond
-- Het vierkant is een rij korter
 
-### Responsive
+### Het grote verschil tussen mobiel en desktop 
+
+1. Het contrast 
+2. De bolletjes ( cirkeltjes) op de achtergrond
+3. Het vierkant (svg) is een rij korter
+4. De schaal 
+5. De knoppen staan onderaan de pagina.
+
+Dit zijn de vijf grootste verschillen tussen de mobiele versie en de desktop versie. 
+1. Het contrast is precies tegenovergesteld aan de desktop versie. Ook zijn de knoppen "inverted" zodat deze wit zijn in plaats van zwart. Op deze manier hoefde ik geen nieuwe image in te laden maar kon ik met een filter de kleur veranderen.
+2. Ook de achtergrond van de mobiele versie is anders. Er zijn veel meer cirkels / bolletjes op de achtergrond die ook animeren.
+3. Het vierkant heb ik een rij ingekort. Dit heb ik gedaan zodat deze iets minder lang is en minder ruimte inneemt zonder dat ik het vierkant heel klein moet schalen. 
+4. De schaal is ook anders. Door display:flex is het kunstwerk responsive. Toch vond ik het kunstwerk nog steeds te groot. Daarom heb ik met media queries de height nog iets verkleind. 
+5. Ook de buttons zijn anders in deze versie. Deze staan namelijk in plaats van in het midden aan de zijkant, nu onderaan de pagina. 
+
+Hierdoor is de beleving van de mobiele versie echt anders dan de desktop versie.
+
+### Responsive verschillen
+
 - Desktop: witte achtergrond met zwart kunstwerk
 - Tablet: zelfde als desktop maar dan geschaald naar een mooi passend formaat
 - Mobiel: Alles van desktop in contrast weergegeven. Dit houdt in; zwarte achtergrond en een wit kunstwerk. Ook heb ik bolletjes (cirkeltjes)  aan de achtergrond toegevoegd die in de tegenovergestelde richting animeren als de bollen van het kunstwerk.
