@@ -17,7 +17,7 @@ https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22California%20Graph
 
 ## Mijn grootste trots
 
-Ik denk dat ik wel kan zeggen dat deze opdracht een grote uitdaging voor mij was. Ik had nog nooit met svg gewerkt, laat staan in code een svg geanimeerd. Ik ben toch wel erg trots op het feit dat ik van een simpel kunstwerk een creatief en out of the box geheel heb gemaakt (al zeg ik het zelf). Ik denk dat met het toevoegen van meerdere vormen en het spelen met contrasten, knoppen (keypress) en animaties ik iets totaal nieuws van het kunstwerk heb gemaakt. Het kunstwerk is nog altijd goed te herkennen, maar met de altijd afspelende flow krijgt het al een heel ander gevoel. Ik denk dat ik daar het meest trots op ben; dat het kunstwerk nog steeds goed te herkennen is, maar ook totaal anders is dan het stilstaande beeld. 
+Ik denk dat ik wel kan zeggen dat deze opdracht een grote uitdaging voor mij was. Ik had nog nooit met svg gewerkt, laat staan in code een svg geanimeerd. Ik ben toch wel erg trots op het feit dat ik van een simpel kunstwerk een creatief en out of the box geheel heb gemaakt (al zeg ik het zelf). Ik denk dat met het toevoegen van meerdere vormen en het spelen met contrasten, knoppen (keypress) en animaties ik iets totaal nieuws van het kunstwerk heb gemaakt. Het kunstwerk is nog altijd goed te herkennen, maar met de altijd afspelende flow krijgt het al een heel ander gevoel. Ik denk dat ik daar het meest trots op ben. Ik ben trots op het feit het kunstwerk nog steeds goed te herkennen is, maar ook totaal anders is dan het stilstaande beeld. 
 
 # Wat heb ik met dit stilstaande beeld gedaan
 
