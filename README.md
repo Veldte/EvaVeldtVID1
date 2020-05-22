@@ -112,8 +112,11 @@ Zoals eerder omschreven onder het kopje "Flow uitgebeeld" heb ik ook een hover t
 De :hover, :active en :focus pseudo-classes heb ik op de buttons toegepast. Ik vond het namelijk niet mooi om een focus te geven aan de cirkels en een active state zou de flow verstoren van het kunstwerk. Zonder een active vloeit het kunstwerk namelijk in zijn geheel.
 De buttons heb ik dus wel deze pseudo-classes gegeven. De hover heb ik een rotate van 75 graden gegeven. Zo ziet de gebruiker dat deze button klikbaar is en dat hij boven de betreffende knop hangt. De active state is een rotatie van 180 graden en een scale van 1.2. Dit heb ik gedaan om het verschil tussen de hover en de active goed zichtbaar te maken. Zo ziet de gebruiker nog welke knop geselecteerd is. De focus state bevat dezelfe styling als de active state zodat dit zichtbaar blijft wanneer je met je muis van de knop afgaat.
 
-![Het hover](/img/hover.png)
-![Het active](/img/active.png)
+
+
+![Default](/img/goeddriehoek.png)
+![Hover](/img/hover.png)
+![Active](/img/active.png)
 
 Als laatste heb de buttons nog een cursor: pointer gegeven. Zo ziet de gebruiker ook duidelijk dat het kunstwerk klikbaar is. 
 
