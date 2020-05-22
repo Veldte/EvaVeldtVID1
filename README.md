@@ -132,15 +132,5 @@ Er zijn drie verschillende soorten functies die ik binnnen JavaScript heb geschr
 
 
 
-/* ## Wat ben ik van plan?
-Deze inzichten die ik heb opgedaan met het bestuderen van al zijn werken en het lezen van zijn biografie wil ik proberen te verwerken in mijn animatie.
-1. Ik wil de flow die Michael probeert in een stilstaand uit te beelden, echt gaan animeren. Zo hoop ik extra waarde toe te kunnen voegen aan het werk.
-2. Ook wil ik kijken wat ik kan doen met kleur en contrast. Ik denk namelijk dat het leuk is om iets te doen met clickable cirkels. Dat wanneer je op een cirkel klikt je een ander contrast te zien krijgt. 
-3. Nog een idee om te doen is om met deze cirkels meerdere vormen te maken zoals een vierkant. Dat wanneer de gebruiker op een vierkant knopje drukt, de cirkels van positie veranderen en een andere vorm vormen. *Dit lijkt mij de grootste uitdaging.* */
 
-
-/* ## Responsive
-De functionaliteit van het kunstwerk wil ik niet veranderen op andere schermgroottes. Wel lijkt het mij leuk om op mobiel formaat het andere contrast als default te laten zien. Hier bedoel ik mee: op desktop is het kunstwerk zwart en de achtergrond wit en op mobiel formaat is het kunstwerk wit en de achtergrond zwart. 
-
-Ik heb nog niet nagedacht over een tablet formaat. Ik denk dat deze hetzelfde zal zijn als desktop maar dan responsive geschaald. */
 
