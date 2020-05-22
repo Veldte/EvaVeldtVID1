@@ -9,10 +9,10 @@ function myFunctiontwo() {
 }
 
 
-var el = document.getElementById('h1');
-el.addEventListener('long-press', function (e) {
-    el.classList.toggle("disco");
-});
+//var el = document.getElementById('h1');
+//el.addEventListener('long-press', function (e) {
+//    el.classList.toggle("disco");
+//});
 
 
 //el.addEventListener('touchstart', function (e) {
