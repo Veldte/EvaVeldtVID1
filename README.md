@@ -12,6 +12,8 @@ Nog een eigenschap van de werken van Michael is dat hij werkte met schalen (scal
 
 Ook maakte Michael met één vorm vaak een andere vorm. Zo maakt hij in dit kunstwerk van meerdere cirkels samen een driehoek. Zo maakt hij andere vormen.
 
+![Het kunstwerk](https://designarchives.aiga.org/assets/images/000/019/941/19941_lg.jpg)
+
 ## Wat heb ik met dit stilstaande beeld gedaan
 
 
