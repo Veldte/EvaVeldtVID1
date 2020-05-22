@@ -86,7 +86,9 @@ Al deze keyCodes zijn geanimeerd met een transistion en een ease.
 Ik heb met @keyframes verschillende animaties geschreven. 
 
 1.Ik heb een animatie geschreven dat het kunstwerk laat "flowen" / vloeien. Onder het kopje "Flow uitgebeeld" heb ik uitgelegd hoe ik dit heb gedaan. 
+
 2.Ongeveer dezelfde animatie heb ik geschreven voor het mobiele formaat. Dit formaat heeft namelijk een achtergrond met 168 kleine bolletje. Ook deze bolletjes heb ik door middel van keyframes en de pseudo class ( :nth-of-type(n) ) laten vloeien. Het enige verschil is de kleur van de cirkels wanneer ze op de grootste scale zijn. Bij de grote cirkels is dit grijs maar bij de kleine cirkels is dit wit.
+
 3. De disco achtergrond heb ik ook door middel van keyframes en animation gemaakt. Hoe ik dit heb gedaan heb ik uitgelegd onder het kopje " Contrast kleuren -> hoe ik dit heb gedaan". (Ik verwijs hiernaar omdat ik niet in herhaling wil vallen)
 
 
