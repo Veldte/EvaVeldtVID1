@@ -37,6 +37,8 @@ Dit heb ik voor elkaar gekregen met Javascript en het schrijven van verschillend
 
 Om nog verder te experimenteren met keyframes en animaties leek het mij ook leuk om één cirkel toe te voegen waar de background color als een soort disco animeert. Dit is de tweede cirkel van de bovenste rij van de driekhoek geworden. Door in JavaScript de class disco toe te voegen en vervolgens in css deze class een animation te geven die ik met keyframes heb geschreven, is het mij gelukt dit voor elkaar te krijgen.
 
+![Het contrast](/img/con.png)
+
 ### Meerdere shapes
 
 Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging naast het apart animeren van de flow per cirkel, was het maken van meerdere shapes. Het leek mij leuk om een vierkant en een cirkel samen te stellen van dezelfde bollen als waar de driehoek uit bestaat. En deze op een klik van een button te laten verschijnen
@@ -47,6 +49,9 @@ Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging na
 2. Dit heb ik dan ook gedaan. Ik heb een vierkant in illustrator gemaakt van dezelfde bollen als de driehoek. Deze heb ik geimporteerd en display:none gegeven zodat ik deze op een click event in beeld kon laten verschijnen. Vervolgens heb ik drie  knoppen toegevoegd, een vierkant knopje, driehoekig knopje en een cirkelvormig knopje. 
 3. Na veel online te hebben gezocht (zie bronnenlijst) heb ik het voor elkaar gekregen dat het vierkant en de driehoek na het klikken van de juiste knop verschijnen. 
 4. Voor de cirkel had ik een ander leuk idee. We hadden de opdracht gekregen om met meerdere css properties te experimenteren. Daarom leek het mij leuk om hier de property clip-path toe te passen. Daarover lees je hieronder meer.
+
+![Het driehoek](/img/con.png)
+![Het vierkant](/img/con.png)
 
 
 ### Experimenteren met verschillende css properties 
@@ -62,6 +67,7 @@ Om het kunstwerk nog interatiever te maken heb ik ervoor gezorgd dat je op een b
 
 Ook heb ik de property *"transition-timing-function"* uitgezocht uit dezelfde lijst van CSS-tricks.com. Hiermee heb ik door middel van cubic bezier een transistion toevoegd waardoor de clip-path in beeld komt schuiven wanneer er op de ronde knop wordt geklikt. 
 
+![Het cirkel](/img/clip.png)
 
 
 ### Keyboard 
@@ -73,6 +79,8 @@ Naast het animeren voor de muis heb ik ook geanimeerd voor het keyboard. Dit heb
 3. Wanneer je de pijltjes toetsen gebruikt verschuift het kunstwerk in die richting. Hier heb ik nog meer code aan toegevoegd. Je kan namelijk tussen links en rechts heen en weer pendelen en ook tussen up en down omdat hij de classes weer removed na een klik op die toetsen. Voorbeeld: Wanneer je op de linker toets klikt, wordt er een class .links toegevoegd aan de svg. Maar wanneer je dan op de rechter toets klikt wordt de class .links weggehaalt en de class .rechts toegevoegd. Hierdoor kan je spelen met waar het kunstwerk binnen je scherm staat en naartoe vliegt.
 
 Al deze keyCodes zijn geanimeerd met een transistion en een ease. 
+
+
 
 ### Animaties met keyframes 
 Ik heb met @keyframes verschillende animaties geschreven. 
@@ -92,7 +100,10 @@ Ik heb met @keyframes verschillende animaties geschreven.
 Ik heb verschillende pseudo-classes gebruikt om mijn ontwerp goed te stylen. Ik heb de ( :ntn-of-type(n) ) class heel erg vaak moeten schrijven voor het individueel laten bewegen van de cirkels. Zoals ik eerder al vertelde was dit niet echt een probleem. Ik heb ik mijn *Illustrator* bestand alle cirkels op volgorde gezet waardoor ik precies wist per nummer om welke cirkel het gaat. Hier heb ik ook de ( :first-of-type ) class voor gebruikt omdat deze samengaat met de ( :ntn-of-type(n) ) class.
 
 De :hover, :active en :focus pseudo-classes heb ik op de buttons toegepast. Ik vond het namelijk niet mooi om een focus te geven aan de cirkels en een active state zou de flow verstoren van het kunstwerk. Zonder een active vloeit het kunstwerk namelijk in zijn geheel.
-De buttons heb ik dus wel deze pseudo-classes gegeven. De hover heb ik een rotate van 75 graden gegeven. Zo ziet de gebruiker dat deze button klikbaar is en dat hij boven de betreffende knop hangt. De active state is een rotatie van 180 graden. Dit heb ik gedaan om het verschil tussen de hover en de active goed zichtbaar te maken. Wanneer de gebruiker dan van de knop afgaat en deze behoud de focus, dan bevat de knop een rotate van 180 graden en een scale van 1.2. Zo ziet de gebruiker nog welke knop geselecteerd is.
+De buttons heb ik dus wel deze pseudo-classes gegeven. De hover heb ik een rotate van 75 graden gegeven. Zo ziet de gebruiker dat deze button klikbaar is en dat hij boven de betreffende knop hangt. De active state is een rotatie van 180 graden en een scale van 1.2. Dit heb ik gedaan om het verschil tussen de hover en de active goed zichtbaar te maken. Zo ziet de gebruiker nog welke knop geselecteerd is. De focus state bevat dezelfe styling als de active state zodat dit zichtbaar blijft wanneer je met je muis van de knop afgaat.
+
+![Het hover](/img/hover.png)
+![Het active](/img/active.png)
 
 Als laatste heb de buttons nog een cursor: pointer gegeven. Zo ziet de gebruiker ook duidelijk dat het kunstwerk klikbaar is. 
 
@@ -112,7 +123,7 @@ Toch heb ik deze regels uiteindlijk uitgecommentarieerd. Ik vond dat mijn mobiel
 - Long-press
 - Touchstart
 
-![Het kunstwerk](/img/mobieljava.png)
+![Het code](/img/code.png)
 
 ### Het grote verschil tussen mobiel en desktop 
 
@@ -130,6 +141,9 @@ Dit zijn de vijf grootste verschillen tussen de mobiele versie en de desktop ver
 5. Ook de buttons zijn anders in deze versie. Deze staan namelijk in plaats van in het midden aan de zijkant, nu onderaan de pagina. 
 
 Hierdoor is de beleving van de mobiele versie echt anders dan de desktop versie.
+
+![Desktop](/img/desk.png)
+![Mobiel](/img/mobiel.png)
 
 ### Responsive verschillen
 
