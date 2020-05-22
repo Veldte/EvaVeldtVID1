@@ -28,7 +28,7 @@ Omdat dit kunstwerk van Michael van der Byl een flow lijkt te hebben door het ge
 
 In mijn illustrator bestand heb ik al mijn cirkels op volgorde gezet per rij. Zo was het voor mij gemakkelijk om ze individueel te stijlen. Dit heb ik gedaan door de pseudo class ( :nth-of-type(n) ) te gebruiken en de animatie elke keer een andere delay te geven waardoor de bollen een voor een omhoog springen. Ik heb in totaal 13 verschillende delays gemaakt en deze per rij toegepast. Omdat rij een meer bollen heeft dan rij twee lopen de delays van rij twee maar tot 11 in plaats van 13, waardoor alle rijen gelijk flowen en dit erg vloeiend gaat.
 
-Ook heb ik de flow toegepast in een hover effect. Ik heb dertien verschillende grijstinten gezocht en deze per rij van donker naar licht laten lopen. Ook in dit geval geldt dat een rij van 11 bollen dus ook tot de 11e grijstint gaat zodat het kunstwerk één vloeiend geheel blijft. 
+Ook heb ik de flow toegepast in een hover effect. Ik heb 13 verschillende grijstinten gezocht en deze per rij van donker naar licht laten lopen. Ook in dit geval geldt dat een rij van 11 bollen dus ook tot de 11e grijstint gaat zodat het kunstwerk één vloeiend geheel blijft. 
 
 ### Contrast kleuren
 
