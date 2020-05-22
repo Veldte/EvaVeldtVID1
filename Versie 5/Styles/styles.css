@@ -1295,58 +1295,7 @@ circle:nth-of-type(48) {
 
     }
     
-#circle01:active {
-    fill: #1F1F1F;
-
-}
-
-#circle02:active {
-    fill: #454545;
-}
-
-#circle03:active {
-    fill: #696969;
-}
-
-#circle04:active {
-    fill: #8A8A8A;
-}
-
-#circle05:active {
-    fill: #A1A1A1;
-}
-
-#circle06:active {
-    fill: #B8B8B8;
-}
-
-#circle07:active {
-    fill: #cfcfcf;
-}
-
-#circle08:active {
-    fill: #C7C7C7;
-}
-
-#circle09:active {
-    fill: #CDCDCD;
-}
-
-#circle10:active{
-    fill: #D3D3D3;
-}
-
-#circle11:active {
-    fill: #E5E5E5;
-}
-
-#circle12:active {
-    fill: #F0F0F0;
-}
-
-#circle13:active {
-    fill: #FAFAFA;
-}
+    
 
 
 }
