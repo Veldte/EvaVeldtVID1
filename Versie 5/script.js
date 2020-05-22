@@ -9,7 +9,7 @@ function myFunctiontwo() {
 }
 
 
-var el = document.getElementById('rondje');
+var el = document.getElementById('mobiel');
 el.addEventListener('long-press', function (e) {
     el.classList.toggle("disco");
 });
