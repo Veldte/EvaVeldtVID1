@@ -34,7 +34,7 @@ Ook heb ik de flow toegepast in een hover effect. Ik heb dertien verschillende g
 
 Zoals ik hierboven in mijn onderzoeksresultaten heb omschreven maakt Michael van der Byl in elk monochroom gebruik van het sterke contrast zwart en wit. Dit leek mij een leuk gegeven om nog verder mee te experimenteren. Ik heb weer 13 contrasten samengesteld. Ik heb het mogelijk gemaakt dat wanneer er op een cirkel wordt geklikt de body en de cirkel fill veranderen naar dat contrast. Bijvoorbeeld de body wordt oranje en de cirkels worden lichtblauw. Ook wilde ik verder experimenteren en een disco achtergrond maken met contrast kleuren.
 
-##### Hoe heb ik dit gedaan
+##### Hoe heb ik dit gedaan?
 
 Dit heb ik voor elkaar gekregen met Javascript en het schrijven van verschillende functies. Elk contrast heeft een eigen functie gekregen. Deze heb ik dan weer random aan een cirkel toegevoegd zodat het klikken op een bol elke keer een verrassend contrast geeft. Hiervoor heb ik een toggle functie geschreven in JavaScript, zodat bij het klikken op dezelfde cirkel deze class weer van de body en cirkels afgehaald wordt. 
 
@@ -46,7 +46,7 @@ Om nog verder te experimenteren met keyframes en animaties leek het mij ook leuk
 
 Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging naast het apart animeren van de flow per cirkel, was het maken van meerdere shapes. Het leek mij leuk om een vierkant en een cirkel samen te stellen van dezelfde bollen als waar de driehoek uit bestaat. En deze op een klik van een button te laten verschijnen
 
-##### Hoe heb ik dit gedaan
+##### Hoe heb ik dit gedaan?
 
 1. Mijn eerste idee was om elke cirkel uit de svg een aparte transform:translate te geven. Maar na een goed gesprek met Danny bleek dit een te enthousiast idee te zijn en was het slimmer om een tweede svg in te laden. 
 2. Dit heb ik dan ook gedaan. Ik heb een vierkant in illustrator gemaakt van dezelfde bollen als de driehoek. Deze heb ik geimporteerd en display:none gegeven zodat ik deze op een click event in beeld kon laten verschijnen. Vervolgens heb ik drie  knoppen toegevoegd, een vierkant knopje, driehoekig knopje en een cirkelvormig knopje. 
