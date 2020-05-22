@@ -85,9 +85,9 @@ Al deze keyCodes zijn geanimeerd met een transistion en een ease.
 ### Animaties met keyframes 
 Ik heb met @keyframes verschillende animaties geschreven. 
 
-1.Ik heb een animatie geschreven dat het kunstwerk laat "flowen" / vloeien. Onder het kopje "Flow uitgebeeld" heb ik uitgelegd hoe ik dit heb gedaan. 
+1. Ik heb een animatie geschreven dat het kunstwerk laat "flowen" / vloeien. Onder het kopje "Flow uitgebeeld" heb ik uitgelegd hoe ik dit heb gedaan. 
 
-2.Ongeveer dezelfde animatie heb ik geschreven voor het mobiele formaat. Dit formaat heeft namelijk een achtergrond met 168 kleine bolletje. Ook deze bolletjes heb ik door middel van keyframes en de pseudo class ( :nth-of-type(n) ) laten vloeien. Het enige verschil is de kleur van de cirkels wanneer ze op de grootste scale zijn. Bij de grote cirkels is dit grijs maar bij de kleine cirkels is dit wit.
+2. Ongeveer dezelfde animatie heb ik geschreven voor het mobiele formaat. Dit formaat heeft namelijk een achtergrond met 168 kleine bolletje. Ook deze bolletjes heb ik door middel van keyframes en de pseudo class ( :nth-of-type(n) ) laten vloeien. Het enige verschil is de kleur van de cirkels wanneer ze op de grootste scale zijn. Bij de grote cirkels is dit grijs maar bij de kleine cirkels is dit wit.
 
 3. De disco achtergrond heb ik ook door middel van keyframes en animation gemaakt. Hoe ik dit heb gedaan heb ik uitgelegd onder het kopje " Contrast kleuren -> hoe ik dit heb gedaan". (Ik verwijs hiernaar omdat ik niet in herhaling wil vallen)
 
@@ -100,6 +100,8 @@ Ik heb met @keyframes verschillende animaties geschreven.
 - :focus
 
 Ik heb verschillende pseudo-classes gebruikt om mijn ontwerp goed te stylen. Ik heb de ( :ntn-of-type(n) ) class heel erg vaak moeten schrijven voor het individueel laten bewegen van de cirkels. Zoals ik eerder al vertelde was dit niet echt een probleem. Ik heb ik mijn *Illustrator* bestand alle cirkels op volgorde gezet waardoor ik precies wist per nummer om welke cirkel het gaat. Hier heb ik ook de ( :first-of-type ) class voor gebruikt omdat deze samengaat met de ( :ntn-of-type(n) ) class.
+
+Zoals eerder omschreven onder het kopje "Flow uitgebeeld" heb ik ook een hover toegepast op de cirkels binnen het kunstwerk. Ik heb 13 verschillende grijstinten gezocht en per cirkel op volgorde van donker naar licht een tint op een hover toegevoegd. Wanneer je met je muis over de cirkels heen gaat lijkt dit ook op een flow. Zo zit de flow er dubbel in. 
 
 De :hover, :active en :focus pseudo-classes heb ik op de buttons toegepast. Ik vond het namelijk niet mooi om een focus te geven aan de cirkels en een active state zou de flow verstoren van het kunstwerk. Zonder een active vloeit het kunstwerk namelijk in zijn geheel.
 De buttons heb ik dus wel deze pseudo-classes gegeven. De hover heb ik een rotate van 75 graden gegeven. Zo ziet de gebruiker dat deze button klikbaar is en dat hij boven de betreffende knop hangt. De active state is een rotatie van 180 graden en een scale van 1.2. Dit heb ik gedaan om het verschil tussen de hover en de active goed zichtbaar te maken. Zo ziet de gebruiker nog welke knop geselecteerd is. De focus state bevat dezelfe styling als de active state zodat dit zichtbaar blijft wanneer je met je muis van de knop afgaat.
