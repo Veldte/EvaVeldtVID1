@@ -1,10 +1,9 @@
 # EvaVeldtVID1
-
+[Demo van de eindversie](https://veldte.github.io/EvaVeldtVID1/Versie%205/)
 # De opdracht voor het vak webanimatie
 De opdracht voor het vak webanimatie luidt als volgt. De bedoeling is dat ik los ga met css op een gekozen kunstwerk uit een archief. Ik heb daarvoor onderstaand kunstwerk gekozen. Om een leuke animatie hiervoor te bedenken heb ik niet alleen mijn eigen creativiteit gebruikt maar ook onderzoek gedaan naar de ontwerper en de bedoeling van het kunstwerk. Er was helaas niet erg veel tevinden over dit specifieke werk. Daarom heb ik mij vooral verdiept in zijn werken, zijn stijl en zijn biografie. Daar heb ik het een en ander ontdekt.
 
 ## De link naar mijn kunstwerk en achtergrond informatie
-https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22California%20Graphic%20Design%201980%E2%80%931982%22/_/detail/relevance/asc/85/7/12931/venture-graphics/1
 
 Het werk is gemaakt door Michael van der Byl. Hij maakte onder andere logo's. Dit kunstwerk is ook een logo voor het bedrijf "Venture Graphics". Van der Byl werkte voornamelijk met monochromen. Dit houd in dat zijn werk maar één kleur had. In zijn geval was dit altijd zwart op een witte achtergrond. Hij werkte met grote contrasten. Dit is een stijl waarin hij werkte, hij maakte ook nog andere soorten werken. Mijn kunstwerk valt binnen deze stijl en daarom heb ik mij hier in verdiept. De verdere informatie gaat dus ook over zijn monochrome stijl en de relatie daarmee met mijn kunstwerk.
 
@@ -12,12 +11,15 @@ Nog een eigenschap van de werken van Michael is dat hij werkte met schalen (scal
 
 Ook maakte Michael met één vorm vaak een andere vorm. Zo maakt hij in dit kunstwerk van meerdere cirkels samen een driehoek. Zo maakt hij andere vormen.
 
+https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22California%20Graphic%20Design%201980%E2%80%931982%22/_/detail/relevance/asc/85/7/12931/venture-graphics/1
 ![Het kunstwerk](https://designarchives.aiga.org/assets/images/000/019/941/19941_lg.jpg)
 
-## Wat heb ik met dit stilstaande beeld gedaan
+
+# Wat heb ik met dit stilstaande beeld gedaan
 
 
 ### Flow uitgebeeld  
+
 Omdat dit kunstwerk van Michael van der Byl een flow lijkt te hebben door het gebruik van verschillende groottes, heb ik besloten deze flow te animeren. Dit heb ik gedaan door middel van keyframes. In deze keyframes pas ik bij 90% van de animatie duur en bij 100% van de animatie duur de scale van de cirkel aan zodat deze lijkt te poppen. Omdat deze animatie opzichelf nog niet echt een mooie flow als resultaat geeft heb ik de kleur (de fill) van de cirkels bij 90% grijs gemaakt en bij 100% zwart. 
 
 In mijn illustrator bestand heb ik al mijn cirkels op volgorde gezet per rij. Zo was het voor mij gemakkelijk om ze individueel te stijlen. Dit heb ik gedaan door de pseudo class ( :nth-of-type(n) ) te gebruiken en de animatie elke keer een andere delay te geven waardoor de bollen een voor een omhoog springen. Ik heb in totaal 13 verschillende delays gemaakt en deze per rij toegepast. Omdat rij een meer bollen heeft dan rij twee lopen de delays van rij twee maar tot 11 in plaats van 13, waardoor alle rijen gelijk flowen en dit erg vloeiend gaat.
@@ -25,17 +27,21 @@ In mijn illustrator bestand heb ik al mijn cirkels op volgorde gezet per rij. Zo
 Ook heb ik de flow toegepast in een hover effect. Ik heb dertien verschillende grijstinten gezocht en deze per rij van donker naar licht laten lopen. Ook in dit geval geldt dat een rij van 11 bollen dus ook tot de 11e grijstint gaat zodat het kunstwerk één vloeiend geheel blijft. 
 
 ### Contrast kleuren
+
 Zoals ik hierboven in mijn onderzoeksresultaten heb omschreven maakt Michael van der Byl in elk monochroom gebruik van het sterke contrast zwart en wit. Dit leek mij een leuk gegeven om nog verder mee te experimenteren. Ik heb weer 13 contrasten samengesteld. Ik heb het mogelijk gemaakt dat wanneer er op een cirkel wordt geklikt de body en de cirkel fill veranderen naar dat contrast. Bijvoorbeeld de body wordt oranje en de cirkels worden lichtblauw. Ook wilde ik verder experimenteren en een disco achtergrond maken met contrast kleuren.
 
 ##### Hoe heb ik dit gedaan
+
 Dit heb ik voor elkaar gekregen met Javascript en het schrijven van verschillende functies. Elk contrast heeft een eigen functie gekregen. Deze heb ik dan weer random aan een cirkel toegevoegd zodat het klikken op een bol elke keer een verrassend contrast geeft. Hiervoor heb ik een toggle functie geschreven in JavaScript, zodat bij het klikken op dezelfde cirkel deze class weer van de body en cirkels afgehaald wordt. 
 
 Om nog verder te experimenteren met keyframes en animaties leek het mij ook leuk om één cirkel toe te voegen waar de background color als een soort disco animeert. Dit is de tweede cirkel van de bovenste rij van de driekhoek geworden. Door in JavaScript de class disco toe te voegen en vervolgens in css deze class een animation te geven die ik met keyframes heb geschreven, is het mij gelukt dit voor elkaar te krijgen.
 
 ### Meerdere shapes
+
 Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging naast het apart animeren van de flow per cirkel, was het maken van meerdere shapes. Het leek mij leuk om een vierkant en een cirkel samen te stellen van dezelfde bollen als waar de driehoek uit bestaat. En deze op een klik van een button te laten verschijnen
 
 ##### Hoe heb ik dit gedaan
+
 1. Mijn eerste idee was om elke cirkel uit de svg een aparte transform:translate te geven. Maar na een goed gesprek met Danny bleek dit een te enthousiast idee te zijn en was het slimmer om een tweede svg in te laden. 
 2. Dit heb ik dan ook gedaan. Ik heb een vierkant in illustrator gemaakt van dezelfde bollen als de driehoek. Deze heb ik geimporteerd en display:none gegeven zodat ik deze op een click event in beeld kon laten verschijnen. Vervolgens heb ik drie  knoppen toegevoegd, een vierkant knopje, driehoekig knopje en een cirkelvormig knopje. 
 3. Na veel online te hebben gezocht (zie bronnenlijst) heb ik het voor elkaar gekregen dat het vierkant en de driehoek na het klikken van de juiste knop verschijnen. 
@@ -43,6 +49,7 @@ Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging na
 
 
 ### Experimenteren met verschillende css properties 
+
 - Clip-path
 - Transition-timing-function
 - Cubic bezier
@@ -56,7 +63,8 @@ Ook heb ik de property *"transition-timing-function"* uitgezocht uit dezelfde li
 
 
 
-### Keyboard
+### Keyboard 
+
 Naast het animeren voor de muis heb ik ook geanimeerd voor het keyboard. Dit heb ik gedaan met de code uit de les en het toevoegen van meerdere knoppen. Ik heb drie verschillende dingen mogelijk gemaakt:
 
 1. Wanneer je op een toets tussen 0 tot en met 9 en a tot en met l klikt veranderd het contrast net zoals dat gebeurd na het klikken op een cirkel.
@@ -65,12 +73,13 @@ Naast het animeren voor de muis heb ik ook geanimeerd voor het keyboard. Dit heb
 
 Al deze keyCodes zijn geanimeerd met een transistion en een ease. 
 
-### Door middel van keyframes en animaties
+### Animaties met keyframes 
+Ik heb met @keyframes verschillende animaties geschreven. 
 
-### Animaties met keyframe
-- Disco achtergrond
-- De flow
-- Kleine bolletjes op mobiel formaat
+1.Ik heb een animatie geschreven dat het kunstwerk laat "flowen" / vloeien. Onder het kopje "Flow uitgebeeld" heb ik uitgelegd hoe ik dit heb gedaan. 
+2.Ongeveer dezelfde animatie heb ik geschreven voor het mobiele formaat. Dit formaat heeft namelijk een achtergrond met 168 kleine bolletje. Ook deze bolletjes heb ik door middel van keyframes en de pseudo class ( :nth-of-type(n) ) laten vloeien. Het enige verschil is de kleur van de cirkels wanneer ze op de grootste scale zijn. Bij de grote cirkels is dit grijs maar bij de kleine cirkels is dit wit.
+3. De disco achtergrond heb ik ook door middel van keyframes en animation gemaakt. Hoe ik dit heb gedaan heb ik uitgelegd onder het kopje " Contrast kleuren -> hoe ik dit heb gedaan". (Ik verwijs hiernaar omdat ik niet in herhaling wil vallen)
+
 
 ## Gebruikte pseudoclasses 
 - :nth-of-type(n)
@@ -79,7 +88,16 @@ Al deze keyCodes zijn geanimeerd met een transistion en een ease.
 - :active
 - :focus
 
+Ik heb verschillende pseudo-classes gebruikt om mijn ontwerp goed te stylen. Ik heb de ( :ntn-of-type(n) ) class heel erg vaak moeten schrijven voor het individueel laten bewegen van de cirkels. Zoals ik eerder al vertelde was dit niet echt een probleem. Ik heb ik mijn *Illustrator* bestand alle cirkels op volgorde gezet waardoor ik precies wist per nummer om welke cirkel het gaat. Hier heb ik ook de ( :first-of-type ) class voor gebruikt omdat deze samengaat met de ( :ntn-of-type(n) ) class.
+
+De :hover, :active en :focus pseudo-classes heb ik op de buttons toegepast. Ik vond het namelijk niet mooi om een focus te geven aan de cirkels en een active state zou de flow verstoren van het kunstwerk. Zonder een active vloeit het kunstwerk namelijk in zijn geheel.
+De buttons heb ik dus wel deze pseudo-classes gegeven. De hover heb ik een rotate van 75 graden gegeven. Zo ziet de gebruiker dat deze button klikbaar is en dat hij boven de betreffende knop hangt. De active state is een rotatie van 180 graden. Dit heb ik gedaan om het verschil tussen de hover en de active goed zichtbaar te maken. Wanneer de gebruiker dan van de knop afgaat en deze behoud de focus, dan bevat de knop een rotate van 180 graden en een scale van 1.2. Zo ziet de gebruiker nog welke knop geselecteerd is.
+
+Als laatste heb de buttons nog een cursor: pointer gegeven. Zo ziet de gebruiker ook duidelijk dat het kunstwerk klikbaar is. 
+
 ### JavaScript 
+
+Er zijn drie verschillende soorten functies die ik binnnen JavaScript heb geschreven.
 - Keycode en events
 -.classList.toggle
 - Switch div
@@ -89,13 +107,13 @@ Al deze keyCodes zijn geanimeerd met een transistion en een ease.
 - Touchstart
 ### Het grote verschil tussen mobiel en desktop 
 - Het contrast 
-- De bolletjes op de achtergrond
+- De bolletjes ( cirkeltjes) op de achtergrond
 - Het vierkant is een rij korter
 
 ### Responsive
 - Desktop: witte achtergrond met zwart kunstwerk
 - Tablet: zelfde als desktop maar dan geschaald naar een mooi passend formaat
-- Mobiel: Alles van desktop in contrast weergegeven. Dit houdt in; zwarte achtergrond en een wit kunstwerk. Ook heb ik bolletjes aan de achtergrond toegevoegd die in de tegenovergestelde richting animeren als de bollen van het kunstwerk.
+- Mobiel: Alles van desktop in contrast weergegeven. Dit houdt in; zwarte achtergrond en een wit kunstwerk. Ook heb ik bolletjes (cirkeltjes)  aan de achtergrond toegevoegd die in de tegenovergestelde richting animeren als de bollen van het kunstwerk.
 
 
 ## Bronnen
