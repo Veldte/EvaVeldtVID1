@@ -80,6 +80,8 @@ Naast het animeren voor de muis heb ik ook geanimeerd voor het keyboard. Dit heb
 
 Al deze keyCodes zijn geanimeerd met een transistion en een ease. 
 
+![Het code](/img/code.png)
+
 
 
 ### Animaties met keyframes 
@@ -126,8 +128,8 @@ Toch heb ik deze regels uiteindlijk uitgecommentarieerd. Ik vond dat mijn mobiel
 
 - Long-press
 - Touchstart
+![Het code](/img/mobieljava.png)
 
-![Het code](/img/code.png)
 
 ### Het grote verschil tussen mobiel en desktop 
 
