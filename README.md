@@ -128,6 +128,8 @@ Toch heb ik deze regels uiteindlijk uitgecommentarieerd. Ik vond dat mijn mobiel
 
 - Long-press
 - Touchstart
+
+
 ![Het code](/img/mobieljava.png)
 
 
