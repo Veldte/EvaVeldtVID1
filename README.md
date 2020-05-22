@@ -17,14 +17,14 @@ https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22California%20Graph
 
 ## Mijn grootste trots
 
-Ik denk dat ik wel kan zeggen dat deze opdracht een grote uitdaging voor mij was. Ik had nog nooit met svg gewerkt, laat staan in code een svg geanimeerd. Ik ben toch wel erg trots op het feit dat ik van een simpel kunstwerk een creatief en out of the box geheel heb gemaak (al zeg ik het zelf). Ik denk dat met het toevoegen van meerdere vormen en het spelen met contrasten, knoppen (keypress) en animaties ik iets totaal nieuws van het kunstwerk heb gemaakt. Het kunstwerk is nog altijd goed te herkennen, maar met de altijd afspelende flow krijgt het al een heel ander gevoel. Ik denk dat ik daar het meest trots op ben. Het kunstwerk is nog steeds goed te herkennen, maar het is totaal anders dan het stilstaande beeld. 
+Ik denk dat ik wel kan zeggen dat deze opdracht een grote uitdaging voor mij was. Ik had nog nooit met svg gewerkt, laat staan in code een svg geanimeerd. Ik ben toch wel erg trots op het feit dat ik van een simpel kunstwerk een creatief en out of the box geheel heb gemaakt (al zeg ik het zelf). Ik denk dat met het toevoegen van meerdere vormen en het spelen met contrasten, knoppen (keypress) en animaties ik iets totaal nieuws van het kunstwerk heb gemaakt. Het kunstwerk is nog altijd goed te herkennen, maar met de altijd afspelende flow krijgt het al een heel ander gevoel. Ik denk dat ik daar het meest trots op ben; dat het kunstwerk nog steeds goed te herkennen is, maar ook totaal anders is dan het stilstaande beeld. 
 
 # Wat heb ik met dit stilstaande beeld gedaan
 
 
 ### Flow uitgebeeld  
 
-Omdat dit kunstwerk van Michael van der Byl een flow lijkt te hebben door het gebruik van verschillende groottes, heb ik besloten deze flow te animeren. Dit heb ik gedaan door middel van keyframes. In deze keyframes pas ik bij 90% van de animatie duur en bij 100% van de animatie duur de scale van de cirkel aan zodat deze lijkt te poppen. Omdat deze animatie opzichelf nog niet echt een mooie flow als resultaat geeft heb ik de kleur (de fill) van de cirkels bij 90% grijs gemaakt en bij 100% zwart. 
+Omdat dit kunstwerk van Michael van der Byl een flow lijkt te hebben door het gebruik van verschillende groottes, heb ik besloten deze flow te animeren. Dit heb ik gedaan door middel van keyframes. In deze keyframes pas ik bij 90% van de animatie duur en bij 100% van de animatie duur de scale van de cirkel aan zodat deze lijkt te poppen. Omdat deze animatie op zichzelf nog niet echt een mooie flow als resultaat geeft heb ik de kleur (de fill) van de cirkels bij 90% grijs gemaakt en bij 100% zwart. 
 
 In mijn illustrator bestand heb ik al mijn cirkels op volgorde gezet per rij. Zo was het voor mij gemakkelijk om ze individueel te stijlen. Dit heb ik gedaan door de pseudo class ( :nth-of-type(n) ) te gebruiken en de animatie elke keer een andere delay te geven waardoor de bollen een voor een omhoog springen. Ik heb in totaal 13 verschillende delays gemaakt en deze per rij toegepast. Omdat rij een meer bollen heeft dan rij twee lopen de delays van rij twee maar tot 11 in plaats van 13, waardoor alle rijen gelijk flowen en dit erg vloeiend gaat.
 
