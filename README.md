@@ -117,9 +117,9 @@ Als laatste heb de buttons nog een cursor: pointer gegeven. Zo ziet de gebruiker
 
 Er zijn drie verschillende soorten functies die ik binnnen JavaScript heb geschreven.
 
-- Keycode en events. *Deze heb ik geschreven voor de animaties op een keypress.*
--.classList.toggle *Voor onclick toggles van classes, bijvoorbeeld voor het veranderen van het contrast op de body en cirkels.*
-- Switch div *Deze functie heb ik geschreven voor het inladen van een andere svg en het verwijderen van de svg die er al stond.*
+- Keycode en events: *Deze heb ik geschreven voor de animaties op een keypress.*
+- .classList.toggle:  *Voor onclick toggles van classes, bijvoorbeeld voor het veranderen van het contrast op de body en cirkels.*
+- Switch div: *Deze functie heb ik geschreven voor het inladen van een andere svg en het verwijderen van de svg die er al stond.*
 
 #### Mobiel formaat javascript experimenten 
 
