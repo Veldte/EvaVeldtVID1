@@ -66,7 +66,7 @@ Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging na
 
 De cirkel knop wilde ik dus een andere functie geven dan het inladen van een andere svg. Ik kwam er namelijk achter dat je met clip-path ook een cirkel kan maken. Ik had clip-path uitgezocht uit de lijst met properties van CSS-tricks.com. Ik heb een clip-path aangemaakt in de vorm van een cirkel dat over een section valt. Deze section bevat alle svg's. Zoals je misschien al voelt aankomen is de cirkel die onstaat door middel van de clip-path dan gevuld met de bollen van de driehoek svg of het vierkant svg. Dit zorgt ervoor dat er alsnog een cirkel onstaat zonder dat ik een nieuwe svg hoef in te laden.
 
-Om het kunstwerk nog interatiever te maken heb ik ervoor gezorgd dat je op een bolletje van de svg's kan klikken om de clip-path class weer te verwijderen. Dit heb ik aangegeven door een ::before property toe te voegen aan de clip-path class. Hier heb ik content geschreven dat aangeeft dat het de bedoeling is om de juiste bol te vinden en daar op te klikken.
+Om het kunstwerk nog interactiever te maken heb ik ervoor gezorgd dat je op een bolletje van de svg's kan klikken om de clip-path class weer te verwijderen. Dit heb ik aangegeven door een ::before property toe te voegen aan de clip-path class. Hier heb ik content geschreven dat aangeeft dat het de bedoeling is om de juiste bol te vinden en daar op te klikken.
 
 Ook heb ik de property *"transition-timing-function"* uitgezocht uit dezelfde lijst van CSS-tricks.com. Hiermee heb ik door middel van cubic bezier een transistion toevoegd waardoor de clip-path in beeld komt schuiven wanneer er op de ronde knop wordt geklikt. 
 
