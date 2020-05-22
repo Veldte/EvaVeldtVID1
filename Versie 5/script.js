@@ -13,9 +13,9 @@ var el = document.getElementById('body');
 el.addEventListener('long-press', function (e) {
     el.classList.toggle("disco");
 });
-el.addEventListener('touchstart', function (e) {
-    el.classList.toggle("disco");
-});
+//el.addEventListener('touchstart', function (e) {
+//    el.classList.toggle("disco");
+//});
 
 /*https://www.cssscript.com/handle-long-press-tap-event-in-javascript-long-press-js*/
 
