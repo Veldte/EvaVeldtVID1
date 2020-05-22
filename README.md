@@ -110,7 +110,7 @@ Voor het mobiele formaat heb ik ook nog JavaScript geschreven. Ik heb een *Long-
 - Long-press
 - Touchstart
 
-![Het kunstwerk](img/mobieljava.jpg)
+![Het kunstwerk](/img/mobieljava.png)
 ### Het grote verschil tussen mobiel en desktop 
 - Het contrast 
 - De bolletjes ( cirkeltjes) op de achtergrond
