@@ -7,14 +7,14 @@ function myFunctiontwo() {
     var element = document.getElementById("body");
     element.classList.toggle("disco");
 }
-
+ 
 
 //var el = document.getElementById('h1');
 //el.addEventListener('long-press', function (e) {
 //    el.classList.toggle("disco");
 //});
-
-
+//
+//
 //el.addEventListener('touchstart', function (e) {
 //    el.classList.toggle("disco");
 //});
