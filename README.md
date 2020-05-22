@@ -15,7 +15,7 @@ Ook maakte Michael met één vorm vaak een andere vorm. Zo maakt hij in dit kuns
 
 https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22California%20Graphic%20Design%201980%E2%80%931982%22/_/detail/relevance/asc/85/7/12931/venture-graphics/1
 
-## Mijn grootste trot
+## Mijn grootste trots
 
 Ik denk dat ik wel kan zeggen dat deze opdracht een grote uitdaging voor mij was. Ik had nog nooit met svg gewerkt, laat staan in code een svg geanimeerd. Ik ben toch wel erg trots op het feit dat ik van een simpel kunstwerk een creatief en out of the box geheel heb gemaak (al zeg ik het zelf). Ik denk dat met het toevoegen van meerdere vormen en het spelen met contrasten, knoppen (keypress) en animaties ik iets totaal nieuws van het kunstwerk heb gemaakt. Het kunstwerk is nog altijd goed te herkennen, maar met de altijd afspelende flow krijgt het al een heel ander gevoel. Ik denk dat ik daar het meest trots op ben. Het kunstwerk is nog steeds goed te herkennen, maar het is totaal anders dan het stilstaande beeld. 
 
