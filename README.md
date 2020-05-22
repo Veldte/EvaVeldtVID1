@@ -9,12 +9,15 @@ Het werk is gemaakt door Michael van der Byl. Hij maakte onder andere logo's. Di
 
 Nog een eigenschap van de werken van Michael is dat hij werkte met schalen (scales) en groottes. Er zit in bijna al zijn werk diepte. Dit doet hij door precies dezelfde vorm, op meerdere groottes te laten zien en van groot naar klein te zetten. Zo lijkt er een flow te ontstaan. Zo lijkthet alsof er een overgang is tussen de grootste vorm en de kleinste vorm. Soms lijkt het zelfs alsof de tint van de vormen veranderen. 
 
-Ook maakte Michael met één vorm vaak een andere vorm. Zo maakt hij in dit kunstwerk van meerdere cirkels samen een driehoek. Zo maakt hij andere vormen.
+Ook maakte Michael met één vorm vaak een andere vorm. Zo maakt hij in dit kunstwerk van meerdere cirkels samen een driehoek. 
 
 ![Het kunstwerk](https://designarchives.aiga.org/assets/images/000/019/941/19941_lg.jpg)
 
 https://designarchives.aiga.org/#/entries/%2Bcollections%3A%22California%20Graphic%20Design%201980%E2%80%931982%22/_/detail/relevance/asc/85/7/12931/venture-graphics/1
 
+## Mijn grootste trot
+
+Ik denk dat ik wel kan zeggen dat deze opdracht een grote uitdaging voor mij was. Ik had nog nooit met svg gewerkt, laat staan in code een svg geanimeerd. Ik ben toch wel erg trots op het feit dat ik van een simpel kunstwerk een creatief en out of the box geheel heb gemaak (al zeg ik het zelf). Ik denk dat met het toevoegen van meerdere vormen en het spelen met contrasten, knoppen (keypress) en animaties ik iets totaal nieuws van het kunstwerk heb gemaakt. Het kunstwerk is nog altijd goed te herkennen, maar met de altijd afspelende flow krijgt het al een heel ander gevoel. Ik denk dat ik daar het meest trots op ben. Het kunstwerk is nog steeds goed te herkennen, maar het is totaal anders dan het stilstaande beeld. 
 
 # Wat heb ik met dit stilstaande beeld gedaan
 
