@@ -50,8 +50,8 @@ Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging na
 3. Na veel online te hebben gezocht (zie bronnenlijst) heb ik het voor elkaar gekregen dat het vierkant en de driehoek na het klikken van de juiste knop verschijnen. 
 4. Voor de cirkel had ik een ander leuk idee. We hadden de opdracht gekregen om met meerdere css properties te experimenteren. Daarom leek het mij leuk om hier de property clip-path toe te passen. Daarover lees je hieronder meer.
 
-![Het driehoek](/img/con.png)
-![Het vierkant](/img/con.png)
+![Het driehoek](/img/driehoek.png)
+![Het vierkant](/img/vierkant.png)
 
 
 ### Experimenteren met verschillende css properties 
