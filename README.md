@@ -75,7 +75,7 @@ Ook heb ik de property *"transition-timing-function"* uitgezocht uit dezelfde li
 
 ### Keyboard animaties 
 
-Naast het animeren voor de muis heb ik ook geanimeerd voor het keyboard. Dit heb ik gedaan met de code uit de les en het toevoegen van meerdere knoppen. Ik heb drie verschillende dingen mogelijk gemaakt:
+Naast het animeren voor de muis heb ik ook geanimeerd voor het keyboard. Dit heb ik gedaan met de code uit de les. Hieraan heb ik meerdere knoppen toegevoegd. Ik heb drie verschillende dingen mogelijk gemaakt:
 
 1. Wanneer je op een toets tussen 0 tot en met 9 en a tot en met l klikt veranderd het contrast net zoals dat gebeurd na het klikken op een cirkel.
 2. Wanneer je een van de twee haakjes " < > " klikt draait het kunstwerk 90 graden naar links of naar rechts.
