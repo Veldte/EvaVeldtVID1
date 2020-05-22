@@ -39,7 +39,7 @@ Om nog verder te experimenteren met keyframes en animaties leek het mij ook leuk
 
 ![Het contrast](/img/con.png)
 
-### Meerdere shapes
+### Meerdere shapes gemaakt 
 
 Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging naast het apart animeren van de flow per cirkel, was het maken van meerdere shapes. Het leek mij leuk om een vierkant en een cirkel samen te stellen van dezelfde bollen als waar de driehoek uit bestaat. En deze op een klik van een button te laten verschijnen
 
@@ -54,7 +54,7 @@ Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging na
 ![Het vierkant](/img/vierkant.png)
 
 
-### Experimenteren met verschillende css properties 
+### (*Voor mij*) Nieuwe Css properties die ik heb gebruikt 
 
 - Clip-path
 - Transition-timing-function
@@ -70,7 +70,7 @@ Ook heb ik de property *"transition-timing-function"* uitgezocht uit dezelfde li
 ![Het cirkel](/img/clip.png)
 
 
-### Keyboard 
+### Keyboard animaties 
 
 Naast het animeren voor de muis heb ik ook geanimeerd voor het keyboard. Dit heb ik gedaan met de code uit de les en het toevoegen van meerdere knoppen. Ik heb drie verschillende dingen mogelijk gemaakt:
 
@@ -94,7 +94,8 @@ Ik heb met @keyframes verschillende animaties geschreven.
 3. De disco achtergrond heb ik ook door middel van keyframes en animation gemaakt. Hoe ik dit heb gedaan heb ik uitgelegd onder het kopje " Contrast kleuren -> hoe ik dit heb gedaan". (Ik verwijs hiernaar omdat ik niet in herhaling wil vallen)
 
 
-### Gebruikte pseudoclasses 
+### Ik heb veel gewerkt met pseudo-classes 
+
 - :nth-of-type(n)
 - :fist-of-type
 - :hover
@@ -115,13 +116,15 @@ Als laatste heb de buttons nog een cursor: pointer gegeven. Zo ziet de gebruiker
 
 ### JavaScript 
 
+Voor het mogelijk maken van meerdere klikbare elementen binnen mijn site heb ik zeker ook gebruik moeten maken van JavaScript. Hierin heb ik verschillende functies geschreven.
+
 Er zijn drie verschillende soorten functies die ik binnnen JavaScript heb geschreven.
 
 - Keycode en events: *Deze heb ik geschreven voor de animaties op een keypress.*
 - .classList.toggle:  *Voor onclick toggles van classes, bijvoorbeeld voor het veranderen van het contrast op de body en cirkels.*
 - Switch div: *Deze functie heb ik geschreven voor het inladen van een andere svg en het verwijderen van de svg die er al stond.*
 
-#### Mobiel formaat javascript experimenten 
+#### Mobiel formaat javascript touch experimenten 
 
 Voor het mobiele formaat heb ik ook nog JavaScript geschreven. Ik heb een *Long-press* en een *Touchstart* functie geschreven. Beide functies heb ik uiteindelijk werkend gekregen met wat hulp van stackoverflow.com. 
 Toch heb ik deze regels uiteindlijk uitgecommentarieerd. Ik vond dat mijn mobiele versie niet meer bruikbaar was door deze functies. Ik had het namelijk mogelijk gemaak dat op een touch of longpress de achtergrond de class disco zou krijgen. Maar door dit te doen werkte het klikken op de cirkels niet meer en vond ik dat het een beetje te onduidlijk en onbruikbaar werd. De code heb ik wel bewaard. 
