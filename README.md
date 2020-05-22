@@ -27,7 +27,7 @@ Ook heb ik de flow toegepast in een hover effect. Ik heb dertien verschillende g
 ### Contrast kleuren
 Zoals ik hierboven in mijn onderzoeksresultaten heb omschreven maakt Michael van der Byl in elk monochroom gebruik van het sterke contrast zwart en wit. Dit leek mij een leuk gegeven om nog verder mee te experimenteren. Ik heb weer 13 contrasten samengesteld. Ik heb het mogelijk gemaakt dat wanneer er op een cirkel wordt geklikt de body en de cirkel fill veranderen naar dat contrast. Bijvoorbeeld de body wordt oranje en de cirkels worden lichtblauw. Ook wilde ik verder experimenteren en een disco achtergrond maken met contrast kleuren.
 
-#### Hoe heb ik dit gedaan
+##### Hoe heb ik dit gedaan
 Dit heb ik voor elkaar gekregen met Javascript en het schrijven van verschillende functies. Elk contrast heeft een eigen functie gekregen. Deze heb ik dan weer random aan een cirkel toegevoegd zodat het klikken op een bol elke keer een verrassend contrast geeft. Hiervoor heb ik een toggle functie geschreven in JavaScript, zodat bij het klikken op dezelfde cirkel deze class weer van de body en cirkels afgehaald wordt. 
 
 Om nog verder te experimenteren met keyframes en animaties leek het mij ook leuk om één cirkel toe te voegen waar de background color als een soort disco animeert. Dit is de tweede cirkel van de bovenste rij van de driekhoek geworden. Door in JavaScript de class disco toe te voegen en vervolgens in css deze class een animation te geven die ik met keyframes heb geschreven, is het mij gelukt dit voor elkaar te krijgen.
@@ -35,7 +35,7 @@ Om nog verder te experimenteren met keyframes en animaties leek het mij ook leuk
 ### Meerdere shapes
 Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging naast het apart animeren van de flow per cirkel, was het maken van meerdere shapes. Het leek mij leuk om een vierkant en een cirkel samen te stellen van dezelfde bollen als waar de driehoek uit bestaat. En deze op een klik van een button te laten verschijnen
 
-#### Hoe heb ik dit gedaan
+##### Hoe heb ik dit gedaan
 1. Mijn eerste idee was om elke cirkel uit de svg een aparte transform:translate te geven. Maar na een goed gesprek met Danny bleek dit een te enthousiast idee te zijn en was het slimmer om een tweede svg in te laden. 
 2. Dit heb ik dan ook gedaan. Ik heb een vierkant in illustrator gemaakt van dezelfde bollen als de driehoek. Deze heb ik geimporteerd en display:none gegeven zodat ik deze op een click event in beeld kon laten verschijnen. Vervolgens heb ik drie  knoppen toegevoegd, een vierkant knopje, driehoekig knopje en een cirkelvormig knopje. 
 3. Na veel online te hebben gezocht (zie bronnenlijst) heb ik het voor elkaar gekregen dat het vierkant en de driehoek na het klikken van de juiste knop verschijnen. 
@@ -43,6 +43,11 @@ Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging na
 
 
 ### Experimenteren met verschillende css properties 
+- Clip-path
+- Transition-timing-function
+- Cubic bezier
+- Before selector
+
 De cirkel knop wilde ik dus een andere functie geven dan het inladen van een andere svg. Ik kwam er namelijk achter dat je met clip-path ook een cirkel kan maken. Ik had clip-path uitgezocht uit de lijst met properties van CSS-tricks.com. Ik heb een clip-path aangemaakt in de vorm van een cirkel dat over een section valt. Deze section bevat alle svg's. Zoals je misschien al voelt aankomen is de cirkel die onstaat door middel van de clip-path dan gevuld met de bollen van de driehoek svg of het vierkant svg. Dit zorgt ervoor dat er alsnog een cirkel onstaat zonder dat ik een nieuwe svg hoef in te laden.
 
 Om het kunstwerk nog interatiever te maken heb ik ervoor gezorgd dat je op een bolletje van de svg's kan klikken om de clip-path class weer te verwijderen. Dit heb ik aangegeven door een ::before property toe te voegen aan de clip-path class. Hier heb ik content geschreven dat aangeeft dat het de bedoeling is om de juiste bol te vinden en daar op te klikken.
@@ -52,6 +57,13 @@ Ook heb ik de property *"transition-timing-function"* uitgezocht uit dezelfde li
 
 
 ### Keyboard
+Naast het animeren voor de muis heb ik ook geanimeerd voor het keyboard. Dit heb ik gedaan met de code uit de les en het toevoegen van meerdere knoppen. Ik heb drie verschillende dingen mogelijk gemaakt:
+
+1. Wanneer je op een toets tussen 0 tot en met 9 en a tot en met l klikt veranderd het contrast net zoals dat gebeurd na het klikken op een cirkel.
+2. Wanneer je een van de twee haakjes " < > " klikt draait het kunstwerk 90 graden naar links of naar rechts.
+3. Wanneer je de pijltjes toetsen gebruikt verschuift het kunstwerk in die richting. Hier heb ik nog meer code aan toegevoegd. Je kan namelijk tussen links en rechts heen en weer pendelen en ook tussen up en down omdat hij de classes weer removed na een klik op die toetsen. Voorbeeld: Wanneer je op de linker toets klikt, wordt er een class .links toegevoegd aan de svg. Maar wanneer je dan op de rechter toets klikt wordt de class .links weggehaalt en de class .rechts toegevoegd. Hierdoor kan je spelen met waar het kunstwerk binnen je scherm staat en naartoe vliegt.
+
+Al deze keyCodes zijn geanimeerd met een transistion en een ease. 
 
 ### Door middel van keyframes en animaties
 
