@@ -66,9 +66,13 @@ Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging na
 
 De cirkel knop wilde ik dus een andere functie geven dan het inladen van een andere svg. Ik kwam er namelijk achter dat je met clip-path ook een cirkel kan maken. Ik had clip-path uitgezocht uit de lijst met properties van CSS-tricks.com. Ik heb een clip-path aangemaakt in de vorm van een cirkel dat over een section valt. Deze section bevat alle svg's. Zoals je misschien al voelt aankomen is de cirkel die onstaat door middel van de clip-path dan gevuld met de bollen van de driehoek svg of het vierkant svg. Dit zorgt ervoor dat er alsnog een cirkel onstaat zonder dat ik een nieuwe svg hoef in te laden.
 
-Om het kunstwerk nog interactiever te maken heb ik ervoor gezorgd dat je op een bolletje van de svg's kan klikken om de clip-path class weer te verwijderen. Dit heb ik aangegeven door een ::before property toe te voegen aan de clip-path class. Hier heb ik content geschreven dat aangeeft dat het de bedoeling is om de juiste bol te vinden en daar op te klikken.
+Ook heb ik de property *"transition-timing-function"* uitgezocht uit dezelfde lijst van CSS-tricks.com. Hiermee heb ik door middel van cubic bezier een transistion toevoegd waardoor de clip-path in beeld komt schuiven wanneer er op de ronde knop wordt geklikt.
 
-Ook heb ik de property *"transition-timing-function"* uitgezocht uit dezelfde lijst van CSS-tricks.com. Hiermee heb ik door middel van cubic bezier een transistion toevoegd waardoor de clip-path in beeld komt schuiven wanneer er op de ronde knop wordt geklikt. 
+##### Op de mobiele versie
+Om het kunstwerk nog interactiever te maken heb ik ervoor gezorgd dat je op een bolletje van de svg's kan klikken om de clip-path class weer te verwijderen. Dit heb ik aangegeven door een ::before property toe te voegen aan de clip-path class. Hier heb ik content geschreven dat aangeeft dat het de bedoeling is om de juiste bol te vinden en daar op te klikken.
+Dit heb ik voor het mobiele formaat anders gedaan omdat het kunstwerk daar een stuk kleiner is en de cirkels daardoor ook kleiner zijn. Het vinden van de juiste cirkel is daarom op mobiel formaat te lastig, je klikt al gauw op teveel cirkels. Daarom heb ik de drie knoppen (vierkant, driehoek en cirkel) wel zichtbaar gelaten op mobiel en kan de gebruiker de clip-path togglen aan en uit toggelen door op de cirkel knop te klikken. Ook schieten deze naar boven wanneer de clip-path class aanstaat, dit was in eerste instantie niet de bedoeling maar ik vond het wel een leuke toevoeging voor de mobiele versie.
+
+ 
 
 ![Het cirkel](/img/clip.png)
 
