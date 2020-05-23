@@ -4,7 +4,7 @@
 De opdracht voor het vak webanimatie luidt als volgt:
 De bedoeling is dat ik los ga met css op een gekozen kunstwerk uit een archief. Ik heb onderstaand kunstwerk gekozen. Het is een logo gemaakt door Michael van der Byl. Om een leuke animatie hiervoor te bedenken heb ik niet alleen mijn eigen creativiteit gebruikt maar ook onderzoek gedaan naar de ontwerper en de bedoeling van het kunstwerk. Er was helaas niet erg veel tevinden over dit specifieke werk. Daarom heb ik mij vooral verdiept in zijn werken, zijn stijl en zijn biografie. Daar heb ik het een en ander ontdekt.
 
-## De link naar mijn kunstwerk en achtergrond informatie
+## De achtergrond informatie van mijn kunstwerk
 
 Het werk is gemaakt door Michael van der Byl. Hij maakte onder andere logo's. Dit kunstwerk is ook een logo voor het bedrijf "Venture Graphics". Van der Byl werkte voornamelijk met monochromen. Dit houd in dat zijn werk maar één kleur had. In zijn geval was dit altijd zwart op een witte achtergrond. Hij werkte met grote contrasten. Dit is een stijl waarin hij werkte, hij maakte ook nog andere soorten werken. Mijn kunstwerk valt binnen deze stijl en daarom heb ik mij hier in verdiept. De verdere informatie gaat dus ook over zijn monochrome stijl en de relatie daarmee met mijn kunstwerk.
 
