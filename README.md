@@ -69,8 +69,10 @@ De cirkel knop wilde ik dus een andere functie geven dan het inladen van een and
 
 Ook heb ik de property *"transition-timing-function"* uitgezocht uit dezelfde lijst van CSS-tricks.com. Hiermee heb ik door middel van cubic bezier een transistion toevoegd waardoor de clip-path in beeld komt schuiven wanneer er op de ronde knop wordt geklikt.
 
-##### Op de mobiele versie
 Om het kunstwerk nog interactiever te maken heb ik ervoor gezorgd dat je op een bolletje van de svg's kan klikken om de clip-path class weer te verwijderen. Dit heb ik aangegeven door een ::before property toe te voegen aan de clip-path class. Hier heb ik content geschreven dat aangeeft dat het de bedoeling is om de juiste bol te vinden en daar op te klikken.
+
+##### Op de mobiele versie
+
 Dit heb ik voor het mobiele formaat anders gedaan omdat het kunstwerk daar een stuk kleiner is en de cirkels daardoor ook kleiner zijn. Het vinden van de juiste cirkel is daarom op mobiel formaat te lastig, je klikt al gauw op teveel cirkels. Daarom heb ik de drie knoppen (vierkant, driehoek en cirkel) wel zichtbaar gelaten op mobiel en kan de gebruiker de clip-path togglen aan en uit toggelen door op de cirkel knop te klikken. Ook schieten deze naar boven wanneer de clip-path class aanstaat, dit was in eerste instantie niet de bedoeling maar ik vond het wel een leuke toevoeging voor de mobiele versie.
 
  
