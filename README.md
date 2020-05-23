@@ -152,7 +152,7 @@ Toch heb ik deze regels uiteindlijk uitgecommentarieerd. Ik vond dat mijn mobiel
 ### Het grote verschil tussen mobiel en desktop 
 
 1. Het contrast 
-2. De bolletjes ( cirkeltjes) op de achtergrond
+2. De bolletjes (cirkeltjes) op de achtergrond
 3. Het vierkant (svg) is een rij korter
 4. De schaal 
 5. De knoppen staan onderaan de pagina.
