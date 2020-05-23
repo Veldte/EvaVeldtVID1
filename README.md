@@ -1,13 +1,14 @@
 # EvaVeldtVID1
 [Demo van de eindversie](https://veldte.github.io/EvaVeldtVID1/Versie%205/)
 # De opdracht voor het vak webanimatie
-De opdracht voor het vak webanimatie luidt als volgt. De bedoeling is dat ik los ga met css op een gekozen kunstwerk uit een archief. Ik heb daarvoor onderstaand kunstwerk gekozen. Om een leuke animatie hiervoor te bedenken heb ik niet alleen mijn eigen creativiteit gebruikt maar ook onderzoek gedaan naar de ontwerper en de bedoeling van het kunstwerk. Er was helaas niet erg veel tevinden over dit specifieke werk. Daarom heb ik mij vooral verdiept in zijn werken, zijn stijl en zijn biografie. Daar heb ik het een en ander ontdekt.
+De opdracht voor het vak webanimatie luidt als volgt:
+De bedoeling is dat ik los ga met css op een gekozen kunstwerk uit een archief. Ik heb onderstaand kunstwerk gekozen. Het is een logo gemaakt door Michael van der Byl. Om een leuke animatie hiervoor te bedenken heb ik niet alleen mijn eigen creativiteit gebruikt maar ook onderzoek gedaan naar de ontwerper en de bedoeling van het kunstwerk. Er was helaas niet erg veel tevinden over dit specifieke werk. Daarom heb ik mij vooral verdiept in zijn werken, zijn stijl en zijn biografie. Daar heb ik het een en ander ontdekt.
 
 ## De link naar mijn kunstwerk en achtergrond informatie
 
 Het werk is gemaakt door Michael van der Byl. Hij maakte onder andere logo's. Dit kunstwerk is ook een logo voor het bedrijf "Venture Graphics". Van der Byl werkte voornamelijk met monochromen. Dit houd in dat zijn werk maar één kleur had. In zijn geval was dit altijd zwart op een witte achtergrond. Hij werkte met grote contrasten. Dit is een stijl waarin hij werkte, hij maakte ook nog andere soorten werken. Mijn kunstwerk valt binnen deze stijl en daarom heb ik mij hier in verdiept. De verdere informatie gaat dus ook over zijn monochrome stijl en de relatie daarmee met mijn kunstwerk.
 
-Nog een eigenschap van de werken van Michael is dat hij werkte met schalen (scales) en groottes. Er zit in bijna al zijn werk diepte. Dit doet hij door precies dezelfde vorm, op meerdere groottes te laten zien en van groot naar klein te zetten. Zo lijkt er een flow te ontstaan. Zo lijkthet alsof er een overgang is tussen de grootste vorm en de kleinste vorm. Soms lijkt het zelfs alsof de tint van de vormen veranderen. 
+Nog een eigenschap van de werken van Michael is dat hij werkte met schalen (scales) en groottes. Er zit in bijna al zijn werk diepte. Dit doet hij door precies dezelfde vorm, op meerdere groottes te laten zien en van groot naar klein te zetten. Zo lijkt er een flow te ontstaan. Zo lijkt het alsof er een overgang is tussen de grootste vorm en de kleinste vorm. Soms lijkt het zelfs alsof de tint van de vormen veranderen. 
 
 Ook maakte Michael met één vorm vaak een andere vorm. Zo maakt hij in dit kunstwerk van meerdere cirkels samen een driehoek. 
 
@@ -44,7 +45,7 @@ Om nog verder te experimenteren met keyframes en animaties leek het mij ook leuk
 
 ### Meerdere shapes gemaakt 
 
-Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging naast het apart animeren van de flow per cirkel, was het maken van meerdere shapes. Het leek mij leuk om een vierkant en een cirkel samen te stellen van dezelfde bollen als waar de driehoek uit bestaat. En deze op een klik van een button te laten verschijnen
+Ik verklapte het net al een beetje maar misschien wel mijn grootste uitdaging naast het apart animeren van de flow per cirkel, was het maken van meerdere shapes. Het leek mij leuk om een vierkant en een cirkel samen te stellen van dezelfde bollen als waar de driehoek uit bestaat. Dit is wat Michael van der Byl ook in zijn monochromen deed. Alle vormen bestonden uit een groepring van een andere vorm. Daarom wilde ik het mogelijk maken dat wanneer iemand op bijvoorbeeld het vierkante knopje klikt, de cirkels in dit kunstwerk in plaats van een driehoek een vierkant gaan vormen.
 
 ##### Hoe heb ik dit gedaan?
 
