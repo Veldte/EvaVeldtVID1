@@ -158,7 +158,7 @@ Toch heb ik deze regels uiteindlijk uitgecommentarieerd. Ik vond dat mijn mobiel
 5. De knoppen staan onderaan de pagina.
 
 Dit zijn de vijf grootste verschillen tussen de mobiele versie en de desktop versie. 
-1. Het contrast is precies tegenovergesteld aan de desktop versie. Ook zijn de knoppen "inverted" zodat deze wit zijn in plaats van zwart. Op deze manier hoefde ik geen nieuwe image in te laden maar kon ik met een filter de kleur veranderen.
+1. Het contrast is precies tegenovergesteld aan de desktop versie. Ook zijn de knoppen "inverted" ( *met filter: invert(100%)* ) zodat deze wit zijn in plaats van zwart. Op deze manier hoefde ik geen nieuwe image in te laden maar kon ik met een filter de kleur veranderen.
 2. Ook de achtergrond van de mobiele versie is anders. Er zijn veel meer cirkels / bolletjes op de achtergrond die ook animeren.
 3. Het vierkant heb ik een rij ingekort. Dit heb ik gedaan zodat deze iets minder lang is en minder ruimte inneemt zonder dat ik het vierkant heel klein moet schalen. 
 4. De schaal is ook anders. Door display:flex is het kunstwerk responsive. Toch vond ik het kunstwerk nog steeds te groot. Daarom heb ik met media queries de height nog iets verkleind. 
